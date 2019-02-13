@@ -1,0 +1,9 @@
+node_module
+test
+src
+package-lock.json
+tsconfig.json
+tslint.json
+webpack.config.js
+README.md
+.travis.yml

@@ -1,0 +1,69 @@
+{
+  "name": "power-validator",
+  "version": "0.0.1-beta",
+  "description": "The vision of the power validator is bringing all the possiblity validation functions and utils in single place with easy resuable way. its a centralized validation libray for all the language",
+  "main": "lib/PowerValidator.js",
+  "types": "lib/PowerValidator.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "dev": "tsc --watch",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.spec.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aravinthraja/power-validator-js.git"
+  },
+  "keywords": [
+    "powerfull",
+    "easy",
+    "eliquient",
+    "validation",
+    "library",
+    "javascript"
+  ],
+  "author": "Aravinth Raja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aravinthraja/power-validator-js/issues"
+  },
+  "homepage": "https://github.com/aravinthraja/power-validator-js#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "codecov": "^3.1.0",
+    "dts-bundle": "^0.7.3",
+    "dts-bundle-webpack": "^1.0.2",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^13.2.0",
+    "prettier": "^1.16.4",
+    "source-map-support": "^0.5.10",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {},
+  "nyc": {
+    "extension": [
+      ".ts",
+      ".tsx"
+    ],
+    "exclude": [
+      "**/*.d.ts",
+      "**/*.js"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "all": true
+  }
+}
