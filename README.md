@@ -48,9 +48,8 @@ you can  check our cdn source for the latest version ro you can download form th
    <script type = "text/javascript">
 
      var name   = "Power Validator";
-     var status =  PowerValidator.isString(name);
 
-    console.log(status);  prints true
+    console.log( PowerValidator.isString(name));  'true'
 
    </script>
 ```
