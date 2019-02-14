@@ -5,6 +5,7 @@
 <br><br>
 
 [![Build Status](https://travis-ci.com/PowerValidator/power-validator-javascript.svg?branch=master)](https://travis-ci.com/PowerValidator/power-validator-javascript) [![codecov](https://codecov.io/gh/PowerValidator/power-validator-javascript/branch/master/graph/badge.svg)](https://codecov.io/gh/PowerValidator/power-validator-javascript) ![](https://img.shields.io/npm/dt/power-validator.svg?label=npm%20downloads&style=flat) 
+[![](https://data.jsdelivr.com/v1/package/npm/power-validator/badge)](https://www.jsdelivr.com/package/npm/power-validator)
 
 </div>
 
@@ -38,10 +39,12 @@ We Support Node ES6 Modules, plain javascript, typescript. AMD modules
 you can  check our cdn source for the latest version ro you can download form the Github release 
 
 ```
-    <script src = "" >
+    https://cdn.jsdelivr.net/npm/power-validator@0.2.0/dist/power-validator.min.js
 ```
 
 ```
+    <script src = "https://cdn.jsdelivr.net/npm/power-validator@0.2.0/dist/power-validator.min.js" >
+
    <script type = "text/javascript">
 
     var name   = "Power Validator";
