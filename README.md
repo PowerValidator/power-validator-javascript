@@ -20,7 +20,7 @@ Power Validator is a lightweight all in one library for the validation and respe
 
 We Support Node ES6 Modules, plain javascript, typescript. AMD modules
 
-### Install in node.js 
+### Install using npm 
 
 ```sh
    $ npm install power-validator
@@ -34,7 +34,7 @@ We Support Node ES6 Modules, plain javascript, typescript. AMD modules
    console.log(status);
 ```
 
-### Install in script tag for browser 
+### Install for browser 
 
 you can  check our cdn source for the latest version ro you can download form the Github release 
 
@@ -58,7 +58,7 @@ you can  check our cdn source for the latest version ro you can download form th
 
 ## Currently Supported functions (latest build)
 
-Our valition functions are currently classifed into following type 
+Our Validation functions are currently classifed into following type 
 
     * String Validator - function's to validate string 
     * Number Validator - function's to validate numbes, floats etc 
@@ -68,10 +68,10 @@ Our valition functions are currently classifed into following type
 
 | Function | README |
 | ------ | ------ |
-| isString(input) | Return true if the input is ("typeof string != "string") |
-| isStringNull(input) | Return true if the input is (null | undefind | "null") |
-| isStringEmpty(input) |Return true if the input is (null | undefind | "" | "null") |
-| isStringValid(input) | Return false if the input is (null | undefind | "null" | "typeof string != "string" | "" ) |
+| isString | Return true if the input is ("typeof string != "string") |
+| isStringNull | Return true if the input is (null  undefind  "null") |
+| isStringEmpty |Return true if the input is (null  undefind  ""  "null") |
+| isStringValid | Return false if the input is (null  undefind  "null"  "typeof string != "string"  "" ) |
 
 ### Number Validator
 
