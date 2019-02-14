@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aravinthraja/power-validator-js.git"
+    "url": "git+https://github.com/PowerValidator/power-validator-javascript.git"
   },
   "keywords": [
     "powerfull",
