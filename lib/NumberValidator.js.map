@@ -1,1 +1,1 @@
-{"version":3,"file":"NumberValidator.js","sourceRoot":"","sources":["../src/NumberValidator.ts"],"names":[],"mappings":""}
+{"version":3,"file":"NumberValidator.js","sourceRoot":"","sources":["../src/NumberValidator.ts"],"names":[],"mappings":";AAAA;;;;EAIE;;AAEF,SAAgB,QAAQ,CAAC,KAAU;IACjC,IAAI,OAAO,KAAK,KAAK,QAAQ,EAAE;QAC7B,OAAO,IAAI,CAAC;KACb;SAAM;QACL,OAAO,KAAK,CAAC;KACd;AACH,CAAC;AAND,4BAMC"}

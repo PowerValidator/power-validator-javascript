@@ -5,7 +5,7 @@
   "main": "lib/PowerValidator.js",
   "types": "lib/PowerValidator.d.ts",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mod=production",
     "dev": "tsc --watch",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.spec.ts\"",
     "lint": "tslint -p tsconfig.json",

@@ -7,3 +7,4 @@ tslint.json
 webpack.config.js
 README.md
 .travis.yml
+.codecov.yml
