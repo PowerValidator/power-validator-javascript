@@ -39,11 +39,11 @@ We Support Node ES6 Modules, plain javascript, typescript. AMD modules
 you can  check our cdn source for the latest version ro you can download form the Github release 
 
 ```
-    https://cdn.jsdelivr.net/npm/power-validator@0.2.0/dist/power-validator.min.js
+    https://cdn.jsdelivr.net/npm/power-validator/dist/power-validator.min.js
 ```
 
 ```
-   <script src = "https://cdn.jsdelivr.net/npm/power-validator@0.2.0/dist/power-validator.min.js" >
+   <script src = "https://cdn.jsdelivr.net/npm/power-validator/dist/power-validator.min.js" >
 
    <script type = "text/javascript">
 
