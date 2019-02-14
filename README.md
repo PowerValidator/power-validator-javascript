@@ -51,6 +51,11 @@ you can  check our cdn source for the latest version ro you can download form th
 
     console.log( PowerValidator.isString(name));  'true'
 
+
+     var number   = 100;
+
+    console.log( PowerValidator.isString(number));  'false'
+
    </script>
 ```
 
