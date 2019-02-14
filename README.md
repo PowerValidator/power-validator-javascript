@@ -1,11 +1,11 @@
-![Power Validator](https://raw.githubusercontent.com/PowerValidator/power-validator-javascript/master/power-validator-logo.png#center)
 
-img[src*='#center'] {
-    display: block;
-    margin: auto;
-}
+<img src="power-validator-logo.png" align="center" />
+
+<div align="center">
 
 [![Build Status](https://travis-ci.com/PowerValidator/power-validator-javascript.svg?branch=master)](https://travis-ci.com/PowerValidator/power-validator-javascript) [![codecov](https://codecov.io/gh/PowerValidator/power-validator-javascript/branch/master/graph/badge.svg)](https://codecov.io/gh/PowerValidator/power-validator-javascript) ![](https://img.shields.io/npm/dt/power-validator.svg?label=npm%20downloads&style=flat) 
+
+</div>
 
 # Power Validator Javascript 
 
