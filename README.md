@@ -12,7 +12,7 @@ We Support Node ES6 Modules, plain javascript, typescript. AMD modules
 ### Install in node.js 
 
 ```
-    npm install power-validator
+   $> npm install power-validator
 ```
 
 ```
