@@ -11,8 +11,8 @@ We Support Node ES6 Modules, plain javascript, typescript. AMD modules
 
 ### Install in node.js 
 
-```
-   $> npm install power-validator
+```sh
+   $ npm install power-validator
 ```
 
 ```
@@ -43,14 +43,14 @@ you can  check our cdn source for the latest version ro you can download form th
 ```
 
 
-### Current Support Functions (latest build)
+## Currently Supported functions (latest build)
 
 Our valition functions are currently classifed into following type 
 
     * String Validator - function's to validate string 
     * Number Validator - function's to validate numbes, floats etc 
 
-#### String Validator
+### String Validator
 
 
 | Function | README |
@@ -60,7 +60,7 @@ Our valition functions are currently classifed into following type
 | isStringEmpty(input) |Return true if the input is (null | undefind | "" | "null") |
 | isStringValid(input) | Return false if the input is (null | undefind | "null" | "typeof string != "string" | "" ) |
 
-#### Number Validator
+### Number Validator
 
 
 | Function | README |
