@@ -1,6 +1,6 @@
 
 <div align="center">
-<img src="power-validator-logo.png" align="center" />
+<img src="https://raw.githubusercontent.com/PowerValidator/power-validator-javascript/master/power-validator-logo.png" align="center" />
 
 <br><br>
 
