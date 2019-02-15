@@ -27,7 +27,7 @@
   "author": "Aravinth Raja",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aravinthraja/power-validator-js/issues"
+    "url": "https://github.com/PowerValidator/power-validator-javascript.git"
   },
   "homepage": "https://github.com/aravinthraja/power-validator-js#readme",
   "devDependencies": {
