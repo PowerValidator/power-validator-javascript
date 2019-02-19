@@ -82,4 +82,11 @@ Our Validation functions are currently classifed into following type
 
 | Function | README |
 | ------ | ------ |
-| isNumber(input) | Return true if the input is ("typeof number != "string") |
+| isNumber(input) | Return true if the input is ("typeof input != "string") |
+
+### Array Validator
+
+
+| Function | README |
+| ------ | ------ |
+| isArray(input) | Return true if the input is ("typeof input != "array") |

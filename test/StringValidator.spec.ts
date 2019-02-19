@@ -21,7 +21,7 @@ describe("String Validation", () => {
     it("should return true on empty", () => {
       expect(StringValidator.isString("{}")).to.equal(true);
     });
-    it("should return true on valida input", () => {
+    it("should return true on valid input", () => {
       expect(StringValidator.isString("power validator")).to.equal(true);
     });
   });
@@ -95,6 +95,36 @@ describe("String Validation", () => {
     });
     it("should return false on undefined input", () => {
       expect(StringValidator.isStringValid(undefined)).to.equal(false);
+    });
+  });
+  describe("isCapitalized", () => {
+    it("should return false on empty String", () => {
+      expect(StringValidator.isCapitalized("")).to.equal(false);
+    });
+    it("should return false on in  valid Non captilized string", () => {
+      expect(StringValidator.isCapitalized("power validator")).to.equal(false);
+    });
+    it("should return false on number input", () => {
+      expect(StringValidator.isCapitalized(3)).to.equal(false);
+    });
+    it("should return false on float input", () => {
+      expect(StringValidator.isCapitalized(0.0)).to.equal(false);
+    });
+    it("should return false on string null", () => {
+      expect(StringValidator.isCapitalized("null")).to.equal(false);
+    });
+    it("should return false on null", () => {
+      expect(StringValidator.isCapitalized(null)).to.equal(false);
+    });
+    it("should return false on undefined input", () => {
+      expect(StringValidator.isCapitalized(undefined)).to.equal(false);
+    });
+    it("should return false on invalid input string", () => {
+      expect(StringValidator.isCapitalized("ower Validator")).to.equal(false);
+    });
+
+    it("should return true on valid input string", () => {
+      expect(StringValidator.isCapitalized("Power Validator")).to.equal(true);
     });
   });
 });

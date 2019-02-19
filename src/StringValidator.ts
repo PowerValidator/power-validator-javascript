@@ -1,8 +1,11 @@
 /*
     String Validator this file contains function to validate the String Object
     List of function in this files as follows
-    1. isString(input:any)       ->  Return true if the given input is string 'false' on the other types
-    2. isStringNull(input:any)   -> Return true if the string is null or string null
+    1. isString(input:any)       -> Return true if the input is ("typeof string != "string")
+    2. isStringNull(input:any)   -> Return true if the input is (null | undefind | "null")
+    3. isStringEmpty(input:any)  -> Return true if the input is (null | undefind | "" | "null")
+    4. isStringValid(input:any)  -> Return false if the input is (null | undefind | "null" | "typeof string != "string" | "" )
+    5. isCapitalized(input:any)  -> Return true if first charcer are capitlized
 */
 
 const lettersRegexp = /^[A-Za-z]+$/;
@@ -42,5 +45,13 @@ export function isStringValid(input: any): boolean {
     return false;
   } else {
     return true;
+  }
+}
+
+export function isCapitalized(input: any): boolean {
+  if (isStringValid(input) === true) {
+    return capitalizeRegexp.test(input);
+  } else {
+    return false;
   }
 }

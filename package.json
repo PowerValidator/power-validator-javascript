@@ -1,15 +1,15 @@
 {
   "name": "power-validator",
-  "version": "0.2.2",
+  "version": "0.2.1",
   "description": "The vision of the power validator is bringing all the possiblity validation functions and utils in single place with easy resuable way. its a centralized validation libray for all the language",
   "main": "lib/PowerValidator.js",
   "types": "lib/PowerValidator.d.ts",
   "scripts": {
-    "build": "webpack --mod=production",
-    "dev": "tsc --watch",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.spec.ts\"",
-    "lint": "tslint -p tsconfig.json",
-    "test": "nyc mocha",
+    "build"   : "tsc && webpack --mod=production",
+    "dev"     : "tsc --watch",
+    "format"  : "prettier --write \"src/**/*.ts\" \"test/**/*.spec.ts\"",
+    "lint"    : "tslint -p tsconfig.json",
+    "test"    : "nyc mocha",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "repository": {
@@ -27,9 +27,9 @@
   "author": "Aravinth Raja",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PowerValidator/power-validator-javascript.git"
+    "url": "https://github.com/PowerValidator/power-validator-javascript/issues"
   },
-  "homepage": "https://github.com/aravinthraja/power-validator-js#readme",
+  "homepage": "https://github.com/PowerValidator/power-validator-javascript#readme",
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",

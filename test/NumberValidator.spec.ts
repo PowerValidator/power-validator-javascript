@@ -2,7 +2,7 @@ import { expect } from "chai";
 import * as NumberValidator from "../src/NumberValidator";
 
 describe("Number Validaton", () => {
-  describe("isString", () => {
+  describe("isNumber", () => {
     it("should return false on undefined", () => {
       expect(NumberValidator.isNumber(undefined)).to.equal(false);
     });
@@ -25,19 +25,19 @@ describe("Number Validaton", () => {
       expect(NumberValidator.isNumber(0)).to.equal(true);
     });
     it("should return true on postive as input", () => {
-        expect(NumberValidator.isNumber(10000)).to.equal(true);
+      expect(NumberValidator.isNumber(10000)).to.equal(true);
     });
     it("should return true on -negative number as input", () => {
-        expect(NumberValidator.isNumber(-10000)).to.equal(true);
+      expect(NumberValidator.isNumber(-10000)).to.equal(true);
     });
     it("should return true on float number as input", () => {
-        expect(NumberValidator.isNumber(1.0000000)).to.equal(true);
+      expect(NumberValidator.isNumber(1.0)).to.equal(true);
     });
     it("should return false on string number as input", () => {
-        expect(NumberValidator.isNumber("1.0000000")).to.equal(false);
+      expect(NumberValidator.isNumber("1.0000000")).to.equal(false);
     });
     it("should return false on string number as input", () => {
-        expect(NumberValidator.isNumber("1.0000.000")).to.equal(false);
+      expect(NumberValidator.isNumber("1.0000.000")).to.equal(false);
     });
   });
 });
