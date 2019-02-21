@@ -20,5 +20,6 @@ declare module 'power-validator/NumberValidator' {
 
 declare module 'power-validator/ArrayValidator' {
     export function isArray(input: any): boolean;
+    export function isArrayEmpty(input: any): boolean;
 }
 

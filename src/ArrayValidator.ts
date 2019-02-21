@@ -11,3 +11,11 @@ export function isArray(input: any): boolean {
     return false;
   }
 }
+
+export function isArrayEmpty(input: any): boolean {
+  if (isArray(input) && input.length === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}

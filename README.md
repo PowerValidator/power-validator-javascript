@@ -76,6 +76,7 @@ Our Validation functions are currently classifed into following type
 | isStringNull | Return true if the input is (null  undefind  "null") |
 | isStringEmpty |Return true if the input is (null  undefind  ""  "null") |
 | isStringValid | Return false if the input is (null  undefind  "null"  "typeof string != "string"  "" ) |
+| isCapitalized | Return true if the isStringValid && First Charcter is Capticalized |
 
 ### Number Validator
 
