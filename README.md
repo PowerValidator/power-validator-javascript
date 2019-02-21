@@ -66,6 +66,8 @@ Our Validation functions are currently classifed into following type
 
     * String Validator - function's to validate string 
     * Number Validator - function's to validate numbes, floats etc 
+    * Array Validator  - function's to validate array.
+
 
 ### String Validator
 
