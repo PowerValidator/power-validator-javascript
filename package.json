@@ -1,6 +1,6 @@
 {
   "name": "power-validator",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "The vision of the power validator is bringing all the possiblity validation functions and utils in single place with easy resuable way. its a centralized validation libray for all the language",
   "main": "lib/PowerValidator.js",
   "types": "lib/PowerValidator.d.ts",
