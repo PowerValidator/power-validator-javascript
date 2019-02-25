@@ -99,4 +99,6 @@ Our Validation functions are currently classifed into following type
 | isArray(input) | Return true if the input is ("typeof input != "array") |
 | isArrayEmpty(input) | Return true if the input array empty|
 
-[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/dashboard?id=PowerValidator_power-validator-javascript)
+### Quality Analysis by
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=PowerValidator_power-validator-javascript)](https://sonarcloud.io/dashboard?id=PowerValidator_power-validator-javascript)
