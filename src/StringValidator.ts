@@ -24,7 +24,11 @@ export function isStringNull(input: any): boolean {
   if (input === null || input === undefined) {
     return true;
   } else {
-    return input! === "null" ? true : false;
+    if (input === "null") {
+      return true;
+    } else {
+      return false;
+    }
   }
 }
 
@@ -32,7 +36,11 @@ export function isStringEmpty(input: any): boolean {
   if (isStringNull(input) === true) {
     return true;
   } else {
-    return input.toString().trim().length === 0 ? true : false;
+    if (input.toString().trim().length === 0) {
+      return true;
+    } else {
+      return false;
+    }
   }
 }
 

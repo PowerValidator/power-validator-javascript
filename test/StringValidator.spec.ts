@@ -27,7 +27,7 @@ describe("String Validation", () => {
   });
 
   describe("isStringNull", () => {
-    it("should return false on empty String", () => {
+    it("should return false on passing empty String", () => {
       expect(StringValidator.isStringNull("")).to.equal(false);
     });
     it("should return false on valid String", () => {
