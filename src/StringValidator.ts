@@ -46,10 +46,15 @@ export function isStringEmpty(input: any): boolean {
 
 export function isStringValid(input: any): boolean {
   if (
+    
+    
+    
     isString(input) === false ||
     isStringNull(input) === true ||
     isStringEmpty(input)
   ) {
+    
+    
     return false;
   } else {
     return true;
