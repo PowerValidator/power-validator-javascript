@@ -18,3 +18,27 @@ export function isNumber(input: any): boolean {
     return false;
   }
 }
+
+export function isZero(input: any): boolean {
+  if (isNumber(input)) {
+    return input === 0;
+  } else {
+    return false;
+  }
+}
+
+export function isPostiveNumber(input: any): boolean {
+  if (isNumber(input)) {
+    return input >= 0;
+  } else {
+    return false;
+  }
+}
+
+export function isNegativeNumber(input: any): boolean {
+  if (isNumber(input)) {
+    return input < 0;
+  } else {
+    return false;
+  }
+}

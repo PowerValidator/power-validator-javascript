@@ -16,6 +16,9 @@ declare module 'power-validator/StringValidator' {
 
 declare module 'power-validator/NumberValidator' {
     export function isNumber(input: any): boolean;
+    export function isZero(input: any): boolean;
+    export function isPostiveNumber(input: any): boolean;
+    export function isNegativeNumber(input: any): boolean;
 }
 
 declare module 'power-validator/ArrayValidator' {

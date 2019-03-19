@@ -1,7 +1,7 @@
 organization=powervalidator
 projectKey=PowerValidator_power-validator-javascript
 serverUrl=https://sonarcloud.io
-serverVersion=7.7.0.22107
+serverVersion=7.7.0.22792
 dashboardUrl=https://sonarcloud.io/dashboard?id=PowerValidator_power-validator-javascript
-ceTaskId=AWkmwrlKMXtK9HdJaA9_
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWkmwrlKMXtK9HdJaA9_
+ceTaskId=AWmRugVRO5STJbyX0sEL
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWmRugVRO5STJbyX0sEL

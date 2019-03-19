@@ -92,6 +92,9 @@ Our Validation functions are currently classifed into following type
 | Function | README |
 | ------ | ------ |
 | isNumber(input) | Return true if the input is ("typeof input != "string") |
+| isZero(input)   | Return true if the input is zero |
+| isPostiveNumber(input) | Return true if the input is zero or greater than zero |
+| isNegativeNumber(input) | Return true if the input less than zero |
 
 ### Array Validator
 
@@ -100,6 +103,13 @@ Our Validation functions are currently classifed into following type
 | ------ | ------ |
 | isArray(input) | Return true if the input is ("typeof input != "array") |
 | isArrayEmpty(input) | Return true if the input array empty|
+
+### Address Validator
+
+
+| Function | README |
+| ------ | ------ |
+| isEmailAddress(input) | Return true if the input is valid email (works on the mordern email)|
 
 ### Quality Analysis by
 
