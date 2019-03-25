@@ -6,6 +6,8 @@
     3. isStringEmpty(input:any)  -> Return true if the input is (null | undefind | "" | "null")
     4. isStringValid(input:any)  -> Return false if the input is (null | undefind | "null" | "typeof string != "string" | "" )
     5. isCapitalized(input:any)  -> Return true if first charcer are capitlized
+    6. isHasOnlyAlphabet()
+    7. isHasOnlyNumber()
 */
 
 const lettersRegexp = /^[A-Za-z]+$/;
@@ -46,9 +48,9 @@ export function isStringEmpty(input: any): boolean {
 
 export function isStringValid(input: any): boolean {
   if (
-            isString(input) === false ||
-            isStringNull(input) === true ||
-            isStringEmpty(input)
+    isString(input) === false ||
+    isStringNull(input) === true ||
+    isStringEmpty(input)
   ) {
     return false;
   } else {

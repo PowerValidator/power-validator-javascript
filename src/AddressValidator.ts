@@ -9,6 +9,7 @@ import { SSL_OP_LEGACY_SERVER_CONNECT } from "constants";
     4. isCity()
     5. isState()
     6. isCountry()
+    7. isWebsiteURL()
 */
 import { isStringValid } from "./StringValidator";
 
