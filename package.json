@@ -9,7 +9,7 @@
     "dev": "tsc --watch",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.spec.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "test": "nyc mocha",
+    "test": "mocha --config test/mocha.opts && nyc mocha",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "sonar": "node analysis.js"
   },
