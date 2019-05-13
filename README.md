@@ -7,7 +7,7 @@
 [![codecov](https://codecov.io/gh/PowerValidator/power-validator-javascript/branch/master/graph/badge.svg)](https://codecov.io/gh/PowerValidator/power-validator-javascript) ![](https://img.shields.io/npm/dt/power-validator.svg?label=npm%20downloads&style=flat) 
 [![](https://data.jsdelivr.com/v1/package/npm/power-validator/badge)](https://www.jsdelivr.com/package/npm/power-validator)
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=PowerValidator_power-validator-javascript&metric=alert_status)](https://sonarcloud.io/dashboard?id=PowerValidator_power-validator-javascript) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=PowerValidator_power-validator-javascript&metric=bugs)](https://sonarcloud.io/dashboard?id=PowerValidator_power-validator-javascript)  [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=PowerValidator_power-validator-javascript&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=PowerValidator_power-validator-javascript)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=PowerValidator_power-validator-javascript&metric=bugs)](https://sonarcloud.io/dashboard?id=PowerValidator_power-validator-javascript)  [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=PowerValidator_power-validator-javascript&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=PowerValidator_power-validator-javascript)
 
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=PowerValidator_power-validator-javascript&metric=security_rating)](https://sonarcloud.io/dashboard?id=PowerValidator_power-validator-javascript) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=PowerValidator_power-validator-javascript&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=PowerValidator_power-validator-javascript)
 
@@ -110,7 +110,3 @@ Our Validation functions are currently classifed into following type
 | Function | README |
 | ------ | ------ |
 | isEmailAddress(input) | Return true if the input is valid email (works on the mordern email)|
-
-### Quality Analysis by
-
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=PowerValidator_power-validator-javascript)](https://sonarcloud.io/dashboard?id=PowerValidator_power-validator-javascript)
