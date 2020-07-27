@@ -1,0 +1,12 @@
+{
+    "diff": true,
+    "extension": ["ts"],
+    "require" : ["ts-node/register","source-map-support/register"],
+    "full-trace": true,
+    "bail": true,
+    "package": "./package.json",
+    "watch-files": [ "test/**/*.spec.ts"],
+    "slow": 75,
+    "timeout": 2000,
+    "recursive": true
+}
